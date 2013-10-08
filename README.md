@@ -20,3 +20,7 @@ Set your own values in your _base.scss or wherever your variables are defined to
 * $function: ease;
 * $fill: both;
 * $visibility: hidden;
+
+
+##License
+Animate.scss is licensed under the GPL v2 license. (http://opensource.org/licenses/GPL-2.0)
