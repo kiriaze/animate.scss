@@ -11,9 +11,9 @@ Placeholders have been set for animtions, e.g. %fadeIn, with properties defined 
 
 Set your own values in your _base.scss or wherever your variables are defined to override the default properties:
 
-$duration: .35s;
-$delay: .2s;
-$delay: 0s;
-$function: ease;
-$fill: both;
-$visibility: hidden;
+* $duration: .35s;
+* $delay: .2s;
+* $delay: 0s;
+* $function: ease;
+* $fill: both;
+* $visibility: hidden;
