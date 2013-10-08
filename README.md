@@ -3,6 +3,9 @@ animate-scss
 
 A sassified animation library based on Animate.css.
 
+Import into project 
+* @import 'animate/animate';
+
 Animation are imported with default variables set in _animate.scss.
 
 Comment / Uncomment the animations you'd like to use.
