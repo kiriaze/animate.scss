@@ -1,4 +1,4 @@
-animate-scss
+Animate.scss
 ============
 
 A sassified animation library based on Animate.css.
