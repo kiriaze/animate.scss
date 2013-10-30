@@ -19,7 +19,7 @@ Set your own values in your _base.scss or wherever your variables are defined to
 * $delay: 0s;
 * $function: ease;
 * $fill: both;
-* $visibility: hidden;
+* $visibility: visible;
 
 
 ##License
