@@ -21,6 +21,6 @@
 	animation-fill-mode: $fill;
 }
 
-@mixin visibility($visibility: hidden) {
+@mixin visibility($visibility: visible) {
 	backface-visibility: $visibility;
 }
