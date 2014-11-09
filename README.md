@@ -6,10 +6,10 @@ A sassified animation version of Dan Edens Animate.css.
 Import into project
 `@import 'animate/animate';`
 
-Animation are imported with default variables set in _animate.scss.
-Properties defined within _properties.scss.
-Comment / Uncomment the animations you'd like to use.
-Set your own values in your _base.scss or wherever your variables are defined to override the default properties:
+* Animation are imported with default variables set in _animate.scss.
+* Properties defined within _properties.scss.
+* Comment / Uncomment the animations you'd like to use.
+* Set your own values in your _base.scss or wherever your variables are defined to override the default properties:
 
 ```
 $duration: .35s;
