@@ -6,6 +6,10 @@ $fill: both;
 $visibility: visible;
 
 @import "properties";
+
+// ===================================
+// Bounce Animations
+// ===================================
 // @import "animations/bounce";
 // @import "animations/bounceIn";
 // @import "animations/bounceInDown";
@@ -17,40 +21,72 @@ $visibility: visible;
 // @import "animations/bounceOutLeft";
 // @import "animations/bounceOutRight";
 // @import "animations/bounceOutUp";
-@import "animations/fadeIn";
-@import "animations/fadeInDown";
+
+// ===================================
+// Fade Animations
+// ===================================
+// @import "animations/fadeIn";
+// @import "animations/fadeInDown";
 // @import "animations/fadeInDownBig";
-@import "animations/fadeInLeft";
+// @import "animations/fadeInLeft";
 // @import "animations/fadeInLeftBig";
-@import "animations/fadeInRight";
+// @import "animations/fadeInRight";
 // @import "animations/fadeInRightBig";
-@import "animations/fadeInUp";
+// @import "animations/fadeInUp";
 // @import "animations/fadeInUpBig";
-@import "animations/fadeOut";
-@import "animations/fadeOutDown";
+// @import "animations/fadeOut";
+// @import "animations/fadeOutDown";
 // @import "animations/fadeOutDownBig";
-@import "animations/fadeOutLeft";
+// @import "animations/fadeOutLeft";
 // @import "animations/fadeOutLeftBig";
-@import "animations/fadeOutRight";
+// @import "animations/fadeOutRight";
 // @import "animations/fadeOutRightBig";
-@import "animations/fadeOutUp";
+// @import "animations/fadeOutUp";
 // @import "animations/fadeOutUpBig";
-@import "animations/fadeInScale";
-@import "animations/fadeInScaleBig";
-@import "animations/fadeOutScale";
-@import "animations/fadeOutScaleBig";
+// @import "animations/fadeInScale";
+// @import "animations/fadeInScaleBig";
+// @import "animations/fadeOutScale";
+// @import "animations/fadeOutScaleBig";
+
+// ===================================
+// Flash Animations
+// ===================================
 // @import "animations/flash";
+
+// ===================================
+// Flip Animations
+// ===================================
 // @import "animations/flip";
 // @import "animations/flipInX";
 // @import "animations/flipInY";
 // @import "animations/flipOutX";
 // @import "animations/flipOutY";
+
+// ===================================
+// Hinge Animations
+// ===================================
 // @import "animations/hinge";
+
+// ===================================
+// LightSpeed Animations
+// ===================================
 // @import "animations/lightSpeedIn";
 // @import "animations/lightSpeedOut";
+
+// ===================================
+// Pulse Animations
+// ===================================
 // @import "animations/pulse";
+
+// ===================================
+// Roll Animations
+// ===================================
 // @import "animations/rollIn";
 // @import "animations/rollOut";
+
+// ===================================
+// Rotate Animations
+// ===================================
 // @import "animations/rotateIn";
 // @import "animations/rotateInDownLeft";
 // @import "animations/rotateInDownRight";
@@ -61,18 +97,33 @@ $visibility: visible;
 // @import "animations/rotateOutDownRight";
 // @import "animations/rotateOutUpLeft";
 // @import "animations/rotateOutUpRight";
+
+// ===================================
+// Shake Animations
+// ===================================
 // @import "animations/shake";
-@import "animations/slideInDown";
+
+// ===================================
+// Slide Animations
+// ===================================
+// @import "animations/slideInDown";
 // @import "animations/slideInLeft";
 // @import "animations/slideInRight";
 // @import "animations/slideOutLeft";
 // @import "animations/slideOutRight";
-@import "animations/slideOutUp";
+// @import "animations/slideOutUp";
+
+// ===================================
+// Other Animations
+// ===================================
 // @import "animations/swing";
 // @import "animations/tada";
 // @import "animations/wiggle";
 // @import "animations/wobble";
 
+// ===================================
+// Animated Class for JS
+// ===================================
 .animated {
 	animation-duration: $duration;
 	animation-fill-mode: $fill;
@@ -81,6 +132,9 @@ $visibility: visible;
 	}
 }
 
+// ===================================
+// Bounce Animations
+// ===================================
 // .bounce {
 // 	@include bounce($duration, $delay, $function, $fill, $visibility);
 // }
@@ -114,75 +168,87 @@ $visibility: visible;
 // .bounceOutUp {
 // 	@include bounceOutUp($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeIn {
-	@include fadeIn($duration, $delay, $function, $fill, $visibility);
-}
-.fadeInDown {
-	@include fadeInDown($duration, $delay, $function, $fill, $visibility);
-}
+
+// ===================================
+// Fade Animations
+// ===================================
+// .fadeIn {
+// 	@include fadeIn($duration, $delay, $function, $fill, $visibility);
+// }
+// .fadeInDown {
+// 	@include fadeInDown($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeInDownBig {
 // 	@include fadeInDownBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeInLeft {
-	@include fadeInLeft($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeInLeft {
+// 	@include fadeInLeft($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeInLeftBig {
 // 	@include fadeInLeftBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeInRight {
-	@include fadeInRight($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeInRight {
+// 	@include fadeInRight($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeInRightBig {
 // 	@include fadeInRightBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeInUp {
-	@include fadeInUp($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeInUp {
+// 	@include fadeInUp($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeInUpBig {
 // 	@include fadeInUpBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeOut {
-	@include fadeOut($duration, $delay, $function, $fill, $visibility);
-}
-.fadeOutDown {
-	@include fadeOutDown($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeOut {
+// 	@include fadeOut($duration, $delay, $function, $fill, $visibility);
+// }
+// .fadeOutDown {
+// 	@include fadeOutDown($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeOutDownBig {
 // 	@include fadeOutDownBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeOutLeft {
-	@include fadeOutLeft($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeOutLeft {
+// 	@include fadeOutLeft($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeOutLeftBig {
 // 	@include fadeOutLeftBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeOutRight {
-	@include fadeOutRight($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeOutRight {
+// 	@include fadeOutRight($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeOutRightBig {
 // 	@include fadeOutRightBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeOutUp {
-	@include fadeOutUp($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeOutUp {
+// 	@include fadeOutUp($duration, $delay, $function, $fill, $visibility);
+// }
 // .fadeOutUpBig {
 // 	@include fadeOutUpBig($duration, $delay, $function, $fill, $visibility);
 // }
-.fadeInScale {
-	@include fadeInScale($duration, $delay, $function, $fill, $visibility);
-}
-.fadeInScaleBig {
-	@include fadeInScaleBig($duration, $delay, $function, $fill, $visibility);
-}
-.fadeOutScale {
-	@include fadeOutScale($duration, $delay, $function, $fill, $visibility);
-}
-.fadeOutScaleBig {
-	@include fadeOutScaleBig($duration, $delay, $function, $fill, $visibility);
-}
+// .fadeInScale {
+// 	@include fadeInScale($duration, $delay, $function, $fill, $visibility);
+// }
+// .fadeInScaleBig {
+// 	@include fadeInScaleBig($duration, $delay, $function, $fill, $visibility);
+// }
+// .fadeOutScale {
+// 	@include fadeOutScale($duration, $delay, $function, $fill, $visibility);
+// }
+// .fadeOutScaleBig {
+// 	@include fadeOutScaleBig($duration, $delay, $function, $fill, $visibility);
+// }
+
+// ===================================
+// Flash Animations
+// ===================================
 // .flash {
 // 	@include flash($duration, $delay, $function, $fill, $visibility);
 // }
+
+// ===================================
+// Flip Animations
+// ===================================
 // .flip {
 // 	@include flip($duration, $delay, $function, $fill, $visibility);
 // }
@@ -198,24 +264,44 @@ $visibility: visible;
 // .flipOutY {
 // 	@include flipOutY($duration, $delay, $function, $fill, $visibility);
 // }
+
+// ===================================
+// Hinge Animations
+// ===================================
 // .hinge {
 // 	@include hinge($duration, $delay, $function, $fill, $visibility);
 // }
+
+// ===================================
+// LightSpeed Animations
+// ===================================
 // .lightSpeedIn {
 // 	@include lightSpeedIn($duration, $delay, $fill, $visibility);
 // }
 // .lightSpeedOut {
 // 	@include lightSpeedOut($duration, $delay, $fill, $visibility);
 // }
+
+// ===================================
+// Pulse Animations
+// ===================================
 // .pulse {
 // 	@include pulse($duration, $delay, $function, $fill, $visibility);
 // }
+
+// ===================================
+// Roll Animations
+// ===================================
 // .rollIn {
 // 	@include rollIn($duration, $delay, $function, $fill, $visibility);
 // }
 // .rollOut {
 // 	@include rollOut($duration, $delay, $function, $fill, $visibility);
 // }
+
+// ===================================
+// Rotate Animations
+// ===================================
 // .rotateIn {
 // 	@include rotateIn($duration, $delay, $function, $fill, $visibility);
 // }
@@ -246,12 +332,20 @@ $visibility: visible;
 // .rotateOutUpRight {
 // 	@include rotateOutUpRight($duration, $delay, $function, $fill, $visibility);
 // }
+
+// ===================================
+// Shake Animations
+// ===================================
 // .shake {
 // 	@include shake($duration, $delay, $function, $fill, $visibility);
 // }
-.slideInDown {
-	@include slideInDown($duration, $delay, $function, $fill, $visibility);
-}
+
+// ===================================
+// Slide Animations
+// ===================================
+// .slideInDown {
+// 	@include slideInDown($duration, $delay, $function, $fill, $visibility);
+// }
 // .slideInLeft {
 // 	@include slideInLeft($duration, $delay, $function, $fill, $visibility);
 // }
@@ -264,9 +358,13 @@ $visibility: visible;
 // .slideOutRight {
 // 	@include slideOutRight($duration, $delay, $function, $fill, $visibility);
 // }
-.slideOutUp {
-	@include slideOutUp($duration, $delay, $function, $fill, $visibility);
-}
+// .slideOutUp {
+// 	@include slideOutUp($duration, $delay, $function, $fill, $visibility);
+// }
+
+// ===================================
+// Other Animations
+// ===================================
 // .swing {
 // 	@include swing($duration, $delay, $function, $fill, $visibility);
 // }
