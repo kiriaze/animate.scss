@@ -1,0 +1,10 @@
+{
+  "name": "sassy animate",
+  "version": "1.0.0",
+  "devDependencies": {
+
+  },
+  "spm": {
+    "main": "_animate.scss"
+  }
+}
