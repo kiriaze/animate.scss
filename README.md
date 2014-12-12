@@ -1,7 +1,9 @@
-Animate.scss
+Sassy Animate
 ============
 
 A sassified animation version of Dan Edens Animate.css.
+
+Bower install sassy-animate
 
 Import into project
 `@import 'animate/animate';`
@@ -18,6 +20,11 @@ $delay: 0s;
 $function: ease;
 $fill: both;
 $visibility: visible;
+```
+
+Set the animations you'd like to use by defining them in your base.scss or similar.
+```
+$fadeIn:						true;
 ```
 
 ##License
