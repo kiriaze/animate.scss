@@ -1,9 +1,9 @@
-Sassy Animate
+S-Animate
 ============
 
 A sassified animation version of Dan Edens Animate.css.
 
-Bower install sassy-animate
+Bower install s-animate
 
 Import into project
 `@import 'animate/animate';`
