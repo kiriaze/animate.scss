@@ -1,7 +1,9 @@
 {
   "name": "s-animate",
   "version": "1.0.0",
-  "main": "_animate.scss",
+  "main": [
+    "./animate/_animate.scss"
+  ],
   "ignore": [
         ".bowerrc",
         ".gitignore",
